@@ -15,6 +15,10 @@
 
 @implementation EnterAdjectiveViewController
 
+//assign value of nametextfield to EAVC's name property
+self.name = nametextfield;
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

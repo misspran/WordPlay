@@ -112,6 +112,7 @@
                         <viewControllerLayoutGuide type="bottom" id="beJ-Qa-U0A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1nL-wm-9qy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an Adjective" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7n-TL-hYT">
@@ -177,6 +178,7 @@
                         <viewControllerLayoutGuide type="bottom" id="w1H-tU-s2I"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4q4-hi-QZd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sjf-3b-bsF">

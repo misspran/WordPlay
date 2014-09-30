@@ -90,11 +90,11 @@
 		CE75C9DA19DB403C00B7BC08 /* WordPlay */ = {
 			isa = PBXGroup;
 			children = (
+				CE75C9E519DB403C00B7BC08 /* Main.storyboard */,
 				CE75C9DF19DB403C00B7BC08 /* AppDelegate.h */,
 				CE75C9E019DB403C00B7BC08 /* AppDelegate.m */,
 				CE75C9E219DB403C00B7BC08 /* ViewController.h */,
 				CE75C9E319DB403C00B7BC08 /* ViewController.m */,
-				CE75C9E519DB403C00B7BC08 /* Main.storyboard */,
 				CE75CA0719DB4C2100B7BC08 /* ResultsViewController.h */,
 				CE75CA0819DB4C2100B7BC08 /* ResultsViewController.m */,
 				CE75CA0419DB4B1A00B7BC08 /* EnterAdjectiveViewController.h */,
@@ -430,6 +430,7 @@
 				CE75C9FD19DB403C00B7BC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE75C9FE19DB403C00B7BC08 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				CE75CA0019DB403C00B7BC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface EnterAdjectiveViewController : UIViewController
+@property NSString *name;
 
 @end
