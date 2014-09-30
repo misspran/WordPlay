@@ -7,16 +7,23 @@
 //
 
 #import "ResultsViewController.h"
+#import "EnterAdjectiveViewController.h"
+#import "EnterNameViewController.h"
 
 @interface ResultsViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *resultTextView;
+@property IBOutlet UITextField *resultTextView;
+
 
 @end
 
 @implementation ResultsViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *story = [NSString stringWithFormat:@"%@ became %@ friends", self.name, self.adjective];
+    self.resultTextView.text = story;
     // Do any additional setup after loading the view.
 }
 
@@ -24,6 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation

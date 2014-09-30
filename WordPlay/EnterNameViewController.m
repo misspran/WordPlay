@@ -10,7 +10,7 @@
 #import "EnterAdjectiveViewController.h"
 
 @interface EnterNameViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property IBOutlet UITextField *nameTextField;
 
 @end
 
@@ -30,13 +30,14 @@
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+
 
 //    -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 //        UIViewController *destinationViewController = segue.destinationViewController;
 //        destinationViewController.title = [sender currentTitle];
-    EnterAdjectiveViewController *enterAdjectiveViewController = segue.destinationViewController;
-    enterAdjectiveViewController.name = self.nameTextField.text;
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    EnterAdjectiveViewController *enterName = segue.destinationViewController;
+    enterName.name = self.nameTextField.text;
 
 
     // Get the new view controller using [segue destinationViewController].
